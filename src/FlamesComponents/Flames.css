@@ -1,0 +1,37 @@
+#flamesHome{
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#flames-container{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    width: 140vh;
+}
+#container-left{
+    background-color: white;
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+}
+#container-right{
+    background-color: purple;
+    flex: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#left-top{
+    background-color: bisque;
+    flex: 50%;
+}
+#left-bottom{
+    background-color: orchid;
+    flex: 50%;
+}
