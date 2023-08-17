@@ -1,37 +1,110 @@
-#flamesHome{
+#inputForm{
     background-color: plum;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-}
-#flames-container{
-    background-color: red;
-    display: flex;
-    flex-direction: row;
-    height: 70vh;
-    width: 140vh;
-}
-#container-left{
-    background-color: white;
-    flex: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 1px black;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
-#container-right{
-    background-color: purple;
+#form{
+    background-color: pink;
+    box-shadow: inset 0 71px 729px plum;
+    border-radius: 8%;
+    border: solid 2px rgb(233, 173, 233);
+}
+.btn{
+    height: 4vh;
+    width: 10vh;
+    font-size: x-large;
+    background-color: rgb(236, 135, 197);
+    border-radius: 15%;
+    transition: 500ms;
+}
+.btn:hover{
+    height: 5vh;
+    width: 12vh;
+    font-size: xx-large;
+}
+#If-top{
     flex: 50%;
+    /* background-color: pink;
+    box-shadow: inset 0 27px 243px plum; */
+    height:40vh;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+#ip{
+    flex: 80%;
+    /* background-color: aqua; */
+    width: 100%;
     display: flex;
+    justify-content: space-around;
 }
-#left-top{
-    background-color: bisque;
-    flex: 50%;
+#ip-1{
+    /* background-color: orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-#left-bottom{
-    background-color: orchid;
-    flex: 50%;
+#ip-2{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inputs{
+    width: 18vh;
+    height:3vh;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#sub-btn{
+    /* background-color: bisque; */
+    flex: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4vh;
+}
+#If-bottom{
+    flex:50%;
+    /* background-color: violet; */
+    height: 40vh;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+}
+#display-result{
+    /* background-color: aliceblue; */
+    flex:25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#display-text{
+    /* background-color: blue; */
+    flex:75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#animation{
+    height: 30vh;
+    width: 30vh;
 }
